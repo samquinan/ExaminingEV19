@@ -11,3 +11,4 @@ dependencies:
  - jupyter_contrib_nbextensions
  - pandas
  - scipy
+ - sklearn
