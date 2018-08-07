@@ -1,0 +1,6 @@
+# enable code folding in binder
+jupyter contrib nbextension install --user
+jupyter nbextension enable codefolding/main
+
+# trust
+jupyter trust AnalysisOverview.ipynb
