@@ -1,4 +1,4 @@
-name: RCM-Env
+name: Examining_EV18-Env
 channels:
  - conda-forge
 dependencies:
@@ -12,4 +12,6 @@ dependencies:
  - pandas
  - scipy
  - scikit-learn
+ - scikit-image
+ - pillow
  
