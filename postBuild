@@ -3,4 +3,4 @@ jupyter contrib nbextension install --user
 jupyter nbextension enable codefolding/main
 
 # trust
-jupyter trust Examining_EV19.ipynb
+jupyter trust ExaminingEV19.ipynb

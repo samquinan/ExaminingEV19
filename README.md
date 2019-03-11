@@ -4,7 +4,7 @@ The repository contains supplemental material for the EuroVis 2019 publication "
 
 The contents include:
 
-- `Examining_EV19.ipynb`: a jupyter notebook with the code to generate the various static and interactive plots mentioned in both the paper and the Supplement.pdf.
+- `ExaminingEV19.ipynb`: a jupyter notebook with the code to generate the various static and interactive plots mentioned in both the paper and the Supplement.pdf.
 - `ConvenienceClasses.py`: a set of convenience classes used by the pdf
 - `data/`: a folder with additional resources needed by the jupyter notebook
 -  `environment.yml`: the specification for a conda environment containing all the dependencies needed to run the jupyter notebook
@@ -12,7 +12,7 @@ The contents include:
 
 To aid in reproducibility, we've made an interactive version of the `Examining_EV18.ipynb` notebook publicly available as part of a executable Binder environment on myBinder.org.
  
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/samquinan/Examining_EV19/master?filepath=Examining_EV19.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/samquinan/ExaminingEV19/master?filepath=ExaminingEV19.ipynb)
 
 Since the Binder instance being hosted at myBinder.org is part of a research pilot, we have also included the specs for an Anaconda environment with all the relevant dependencies needed to run the jupyter notebook locally. Anaconda is a python and R distribution, with installation and package management tools and a complete overview of `conda` environments can be found in Anaconda's [documentation](https://conda.io/docs/user-guide/tasks/manage-environments.html). Below we outline the basic steps required to set up the included environment. These directions, tested on both macOS and Linux, assume that you have a working version of Anaconda [installed](https://docs.anaconda.com/anaconda/install/). If you are installing Anaconda for the first time, we also recommend familiarizing yourself with the steps in the [user guide](https://conda.io/docs/user-guide/getting-started.html) for starting and managing `conda` environments.
 
