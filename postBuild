@@ -3,4 +3,4 @@ jupyter contrib nbextension install --user
 jupyter nbextension enable codefolding/main
 
 # trust
-jupyter trust AnalysisOverview.ipynb
+jupyter trust Anonymized_2018.ipynb

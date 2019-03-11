@@ -92,7 +92,7 @@ class ParamControl():
         roots = self._param.getInflectionPoints(self.gradient_threshold.value)
         self._if_handles = []
         for i in range(len(roots)):
-            l = self._ax_param.axvline(x=roots[i], color=self._if_color, linestyle='--', alpha=0.4)
+            l = self._ax_param.axvline(x=roots[i], color=self._if_color, linestyle=':', alpha=0.4)
             self._if_handles.append(l)
     
     @property
@@ -145,7 +145,7 @@ class ParamControl():
             l.set_xdata(new_roots[i])
             l.set_visible(True)
         for i in range(max(nNew-nOld, 0)): # add
-            l = self._ax_param.axvline(x=new_roots[i+nUpdate], color=self._if_color, linestyle='--', alpha=0.4)
+            l = self._ax_param.axvline(x=new_roots[i+nUpdate], color=self._if_color, linestyle=':', alpha=0.4)
             l.set_visible(True)
             self._if_handles.append(l)
         for i in range(max(nOld - nNew, 0)): # hide
@@ -172,4 +172,8 @@ class ParamControl():
         self.update_curv()
         self.update_grad()
 
+# Wrapper for Quick Object
+class QuickObj:
+    def __init__(self, **kwds):
+        self.__dict__.update(kwds)
 
