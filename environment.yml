@@ -1,4 +1,4 @@
-name: Examining_EV18-Env
+name: ExaminingEV19-Env
 channels:
  - conda-forge
 dependencies:
@@ -14,4 +14,3 @@ dependencies:
  - scikit-learn
  - scikit-image
  - pillow
- 
