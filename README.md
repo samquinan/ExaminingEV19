@@ -10,7 +10,7 @@ The contents include:
 -  `environment.yml`: the specification for a conda environment containing all the dependencies needed to run the jupyter notebook
 - `postBuild`: a script used by the binder instance
 
-To aid in reproducibility, we've made an interactive version of the `Examining_EV18.ipynb` notebook publicly available as part of a executable Binder environment on myBinder.org.
+To aid in reproducibility, we've made an interactive version of the `Examining_EV19.ipynb` notebook publicly available as part of a executable Binder environment on myBinder.org.
  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/samquinan/ExaminingEV19/master?filepath=ExaminingEV19.ipynb)
 
